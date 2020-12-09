@@ -5,7 +5,7 @@ module.exports = {
     host: 'localhost',
     port: '5432',
     username: 'postgres',
-    password: '78945685c',
+    password: 'H@ckeadobyLNathayniel',
     database: 'busspassDB',
     define: {
         timestamps:true,
