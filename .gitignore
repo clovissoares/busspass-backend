@@ -1,5 +1,7 @@
 node_modules/
 
+src/config/*
+
 .env
 
 src/database/uploads/*

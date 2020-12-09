@@ -11,7 +11,7 @@ class Veiculo extends Model{
     }
 
     static associate(models){
-        this.hasMany(models.Entrada, {as: 'entradas'})
+        this.hasMany(models.Entrada, {foreignKey: 'veiculo_id', as: 'entradas'})
     }
 }
 

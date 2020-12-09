@@ -11,7 +11,7 @@ class Estudante extends Model{
     }
 
     static associate(models){
-        this.hasMany(models.Entrada, {as: 'entradas'})
+        this.hasMany(models.Entrada, {foreignKey: 'estudante_id', as: 'entradas'})
     }
 }
 
